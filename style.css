@@ -1,0 +1,278 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+/* Header section start */
+header{
+  height: 100px;
+  background: skyblue;
+  margin-bottom: 0px;
+  
+}
+header .container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.container .logo{
+  color: gold;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  margin-top: 25px;
+  margin-right: 50px;
+  scroll-behavior: smooth;
+}
+
+/* Header section end */
+
+
+/* Banner section start */
+.banner-section{
+  width: 100%;
+  height: 700px;
+  background: rgba(82, 187, 244, 0.99);
+  margin-top: 0;
+  position: relative;
+  
+}
+.banner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner .left-section{
+  width: 50%;
+  align-items: center;
+}
+.left-section h1{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.left-section p{
+  color: rgba(230, 235, 236, 0.99);
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.left-section .button-section{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.left-section .button-section a{
+  width: 150px;
+  height: 100%;
+  background: rgba(38, 109, 144, 0.99);
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 12px; 
+}
+.left-section .button-section a:hover{
+  color:  rgba(38, 109, 144, 0.99);
+  background: white;
+}
+
+.right-section{
+  width: 350px;
+  height: 350px;
+  background: gold;
+  border-radius:10px; 
+  
+}
+.right-section .form-head{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.right-section .input-group{
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  margin-left: 20px;
+}
+.right-section .input-group input{
+  border-radius: 5px;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.right-section .input-group button{
+  color: white;
+  background: rgba(80, 87, 169, 1);
+  width: 100px;
+  height: 30px;
+  margin-left: 170px;
+  border-radius: 5px;
+  
+}
+.right-section .input-group button:hover{
+  color: rgba(80, 87, 169, 1);
+  background: white;
+  transition: 0.5s ease-in-out;
+}
+
+/* Banner  section end */
+
+/* Card section start */
+
+.card-container{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  background:  rgba(252, 252, 255, 1);
+  align-items: center;
+}
+
+.card-container .image-group img{
+  width: 250px;
+  height: 250px;
+  margin: 40px;
+
+  border-radius: 5px;
+}
+.image-head{
+  display: flex;
+  justify-content: center;
+  
+}
+.image-head h2{
+  color: rgba(122, 158, 136, 1);
+  font-size: 50px;
+  text-decoration: underline;
+}
+/* card section end */
+
+/* Service section start */
+
+.service{
+  width: 100%;
+  height: 600px;
+  background: rgba(224, 224, 224, 1);
+  position: relative;
+  
+}
+.service .service-head{
+  display: flex;
+  justify-content: center;
+}
+.service-head h1{
+  color: #5AA0CD;
+  font-size: 50px;
+  font-weight: bold;
+}
+.service .service-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service-container .sub-service{
+  background: orange;
+  height: 200px;
+  flex: 1;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+.sub-service:hover{
+  background: rgba(234, 195, 16, 1);
+  
+}
+.sub-service h1{
+  color: white;
+  font-size: 35px;
+  
+}
+
+/* Service section end  */
+
+/* footer section start */
+footer{
+  width: 100%;
+  height: 70px;
+  background: rgba(249, 249, 255, 1);
+  position: relative;
+  margin-bottom: 0; 
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+}
+.footer-container h2{
+  font-size: 20px;
+}
+.footer-container h2 span{
+  color: rgba(125, 133, 235, 1);
+  font-weight: bold;
+}
+
+/* footer section end */
+
+/* footer file under working start  */
+.about-container{
+  width: 100%;
+  height: 700px;
+  background: rgba(143, 41, 181, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-container .image img{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-container .content h2{
+  color: white;
+  font-size: 40px;
+}
+.content p{
+  color: rgba(207, 211, 255, 1);
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.last-section{
+  width: 100%;
+  height: 1400px;
+  position: absolute;
+  background: linear-gradient(90deg, orange, purple);
+}
+
+
+/* footer file under working start  */
